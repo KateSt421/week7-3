@@ -253,48 +253,6 @@ body {
   opacity: 0.4;
 }
 
-.send-form {
-  background: #5a98d0;
-  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-  border-radius: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-
-.contacts__header {
-  position: relative;
-  flex-grow: 1;
-}
-
-.contacts__img {
-  width: 100%;
-}
-
-.contacts__info {
-  float: left;
-  height: 500px;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  float: right;
-  align-items: left;
-  width: 550px;
-}
-
-.box-border {
-  height: 70px;
-}
-
-.send-form {
-  height: 60px;
-}
-
 .footer {
   background-color: #316099;
   padding-top: 91px;
