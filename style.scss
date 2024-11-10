@@ -24,7 +24,11 @@ body {
 
 .top {
   min-height: 768px;
-  background: linear-gradient(0deg, #ebf3fb 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  background: linear-gradient(
+    0deg,
+    #ebf3fb 8.84%,
+    rgba(152, 195, 232, 0) 31.12%
+  );
 }
 
 .header {
@@ -318,48 +322,60 @@ hr {
     padding-right: 32px;
   }
 }
+
 @media (max-width: 1024px) {
   .top__info {
     background-position: right 280px;
   }
+
   .card_box {
     flex-direction: column;
     align-items: center;
   }
+
   .card {
     margin-bottom: 32px;
     width: 90%;
   }
+
   .footer {
     padding-top: 47px;
     padding-bottom: 64px;
     margin-top: 109px;
   }
+
   .footer__top {
     justify-content: space-around;
   }
+
   .footer__button {
     padding: 3px 10px;
   }
+
   .footer__info {
     flex-direction: column;
   }
+
   .footer__text {
     width: 336px;
   }
+
   .list__element {
     padding-bottom: 25px;
   }
 }
+
 @media (max-width: 667px) {
   .header {
     padding-top: 24px;
   }
+
   .top {
     min-height: 376px;
     padding-bottom: 41px;
     box-sizing: border-box;
   }
+
   .top__info {
     padding-top: 36px;
     display: flex;
@@ -367,6 +383,7 @@ hr {
     align-items: center;
     background-image: none;
   }
+
   .heading {
     font-size: 32px;
     line-height: 37px;
@@ -374,50 +391,62 @@ hr {
     width: 100%;
     text-align: center;
   }
+
   .text {
     width: 100%;
     text-align: center;
   }
+
   .top__button {
     font-size: 12px;
     line-height: 26px;
     padding: 0 8px;
   }
+
   .midi {
     font-size: 24px;
     line-height: 28px;
   }
+
   .what-we-do {
     padding-top: 48px;
   }
+
   .card_box {
     padding-top: 32px;
   }
+
   .card {
     width: 100%;
   }
+
   .text1 {
     width: 100%;
   }
+
   .project__text {
     font-size: 16px;
     line-height: 19px;
     top: 16px;
     right: 16px;
   }
+
   .project__text_bottom {
     left: 16px;
     font-size: 16px;
   }
+
   .project__parent {
     flex-direction: column;
     margin-top: 16px;
     margin-bottom: 64px;
   }
+
   .project__item_margin {
     margin-right: 0;
     margin-bottom: 16px;
   }
+
   .midi_fotter {
     font-size: 24px;
     line-height: 28px;
@@ -426,10 +455,12 @@ hr {
     width: 75%;
     margin: 0 auto 32px;
   }
+
   .container {
     padding-left: 16px;
     padding-right: 16px;
   }
+
   .footer__top {
     display: flex;
     align-items: center;
@@ -438,24 +469,30 @@ hr {
     padding-bottom: 40px;
     margin-top: 18px;
   }
+
   .footer {
     margin-top: 0;
     padding-top: 0;
     padding-bottom: 32px;
   }
+
   .footer__text {
     width: 100%;
   }
+
   .list__element {
     margin-right: 23px;
   }
+
   .footer__button {
     margin-top: 40px;
   }
+
   .footer__copy {
     margin-top: 5px;
   }
+
   .text_copy {
     text-align: center;
   }
-}/*# sourceMappingURL=style.css.map */
+}
